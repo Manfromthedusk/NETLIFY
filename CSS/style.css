@@ -1,0 +1,89 @@
+body{
+   margin:0;
+   font-size: 12px;
+   font-family: sans-serif;
+   background-color:#fff4cc;
+}
+
+a{
+   text-decoration: none;
+}
+
+div.pembungkus{
+width: 1024px;
+margin:auto;
+}
+
+ul.menu {
+   float: right;
+}
+
+ul.menu li{
+   list-style: none;
+   display: inline-block;
+   margin-left: 25px;
+}
+
+ul.menu li a{
+   color:black;
+   /* text-transform: uppercase; */
+}
+
+ul.menu li a:hover{
+   color:green;
+}
+
+div.main{
+   min-height: 500px;
+   padding-top:20px;
+}
+
+div.banner{
+   position: relative;
+}
+
+div.tagline {
+   position: absolute;
+   bottom: 0px;
+   display:block;
+   width: 1024px;
+   height: 20px;
+   background-color: rgba(0,0,0,0.9);
+   color: white;
+}
+
+div.tagline a{
+   background-color: red;
+   float: right;
+   height: 20px;
+   color:white;
+   border-radius:10px;
+   padding:2px 5px;
+   margin-right: 10px;
+}
+
+img.gambar{
+   border-radius: 20px;
+}
+
+article{
+   display: inline-block;
+   background-color: blue;
+   width: 74%;
+}
+
+aside{
+   display: inline-block;
+   float: right;
+   background-color: red;
+   width: 20%;
+   vertical-align: top;
+}
+
+img.author_photo{
+   display: block;
+   margin:0 auto;
+   width: 100px;
+   border-radius: 50%;
+
+}
