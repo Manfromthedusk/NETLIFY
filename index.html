@@ -1,73 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-               <title>WEB SEDERHANA
-               </title>
-                    <link rel="stylesheet" href="CSS/style.css">
-    
-
-        <style>
-           
-            
-        </style>
-
-    </head>
-
+<head>
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<script src="function.js"></script>
+</head>
 <body>
-    <div class="pembungkus">
-   <header>
-        
-        <a href="index.html"><img src="logo.png" width="100px"></a>
+ 
+	<h1 >LOGIN FORM</h1>
 
-        <ul class="menu">
-            <li><a href="#">home</a></li>
-            <li><a href="#">blog</a></li>
-            <li><a href="#">resume</a></li>
-            <li><a href="#">contact</a></li>
-        </ul>
-   </header>
-
-   <div class="main">
-
-        <div class="banner">
-
-            <img class="gambar" width="1024px" src="banner.jpg">
-
-            <div class="tagline">
-                <span>ini judul</span>
-                <a href="#">see details</a>
-            </div>
-
-        
-        </div>
-
-        <!-- INI CONTETNT -->
-        <section>
-            <article>
-                <h1>BIODATA</h1>
-                <P>NAMA : Billy Jhon Aziz</P>
-                <P>UMUR : 20 Tahun</P>
-            </article>
-
-            <aside>
-                <h1>DETAILS</h1>
-
-                <img class="author_photo" src="billy.png">
-                <p>HOBI SAYA NGEDATE BRO</p>
-
-
-            </aside>
-
-        </section>
-
-
-   </div>
-
-   <footer>
-        2019 ALLRIGHT RESERVED
-   </footer>
-
-        </div>
-
+			<img src="HACKTIVE8.PNG">
+ 
+	<div class="kotak_login">
+		<p class="tulisan_login">Silahkan login</p>
+ 
+		<form action="input.html"> 
+			<label>USERNAME</label>
+			<input type="text" name="username" class="form_login" placeholder="Username .." required>
+ 
+			<label>PASSWORD</label>
+			<input type="password" name="password" class="form_login" placeholder="Password .." required>
+ 
+			<button class="tombol_login" type="submit" validasi()>
+				<strong>LOGIN</strong>
+			</button>
+			<br/>
+			<br/>
+		</form>
+		
+	</div>
+ 
+ 
 </body>
 </html>
