@@ -1,0 +1,21 @@
+body {
+	background: lightgoldenrodyellow;
+	font-family: sans-serif;
+  }
+ 
+ .floatright{
+	color: red;
+	float:right;
+ }
+
+ .floatleft{
+	color: red;
+	float:left;
+ }
+
+
+  table, th, td {
+	border: 2px solid black;
+	text-align: center;
+	color: blue;
+  }
